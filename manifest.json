@@ -12,7 +12,8 @@
   "content_scripts": [
     {
       "matches": ["*://*.google.com/maps/*"],
-      "js": ["getRev.js"]
+      "js": ["getRev.js"],
+      "run_at": "document_idle"
     }
   ]
 }
