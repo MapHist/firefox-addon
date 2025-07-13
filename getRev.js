@@ -57,7 +57,6 @@ waitForRows('.BHOKXe', (rows) => {
 
 waitForSpanInDiv('.HHrUdb', (text) => {
   stats.count = parseInt(text.replace(".", ""));
-  //console.log('Found span content:', text); 
 });
 
 console.log(stats);
